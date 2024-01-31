@@ -1,0 +1,173 @@
+.section-about-us .left-column {
+    float: right; 
+  }
+  
+  
+.name{
+    color: white;
+    background-color: rgb(47, 47, 145);
+    display: inline-block;
+}
+.introduction-1{
+    color: white;
+}
+.introduction-2{
+    color: rgb(0, 102, 255);
+}
+.describe{
+    color: white;
+}
+
+
+.left-column,
+.right-column {
+    box-sizing: border-box; 
+    padding: 20px; 
+}
+
+.right-column {
+    overflow: hidden; 
+}
+
+.section-about-us .right-column {
+    float: left; 
+  }
+  main{
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.sectionhero {
+    position: relative;
+    overflow: hidden; 
+}
+.introduction-1, .introduction-2{
+    font-size: large;
+}
+.container {
+    display: flex;
+    align-items: center;
+    height: 100%; 
+}
+.button{
+    font-weight: 600;
+    font-size: 16px;
+    border: 1px solid transparent;
+    height: 60px;
+    padding: 30px 35px;
+    background-color: #337aff;
+    border-radius: 50px;
+    color: white;
+}
+.header {
+    
+    height: 50px;
+    width: 100%;
+   
+    top: 0;
+    left: 0;
+   
+  }
+  .logo {
+    font-size: 70px;
+    font-weight: 400;
+    display: flex;
+    gap: 0;
+    color: white;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap');
+
+
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  body{
+      font-size: 14px;
+      font-family: 'Noto Sans', sans-serif;
+      background-color: rgb(1, 29, 55);
+  }
+  .navbar .navbar-right{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+.navbar a{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.navbar {
+    height: 50px;
+    width: 100%;
+   position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    float: right;
+}
+.container {
+    width: 100%;
+    height: 200px;
+  }
+  
+  .left-column {
+    float: left;
+    width: 50%;
+  }
+  
+  .right-column {
+    float: right;
+    width: 50%;
+  }
+main{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.name{
+    color: white;
+    background-color: rgb(47, 47, 145);
+    display: inline-block;
+}
+.introduction-1{
+    color: white;
+}
+.introduction-2{
+    color: rgb(0, 102, 255);
+}
+.describe{
+    color: white;
+}
+.sectionhero {
+    position: relative;
+   
+    overflow: hidden; 
+}
+.introduction-1, .introduction-2{
+    font-size: large;
+}
+.container {
+    display: flex;
+    align-items: center;
+    height: 100%; 
+}
+
+.left-column,
+.right-column {
+    box-sizing: border-box; 
+    padding: 5px; 
+}
+
+.right-column {
+    overflow: hidden; 
+}
+
+
+.right-column img {
+    width: 100%;
+    height: auto;
+    max-height: 100%; 
+}
